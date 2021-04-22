@@ -4,7 +4,7 @@
 
 ## Description
 The aim of this project was to create a progressive web application by adding code to an existing budget tracking application to allow it to store information while offline and then update the application with this information when it is online again. In order to achieve this, the files called service-worker.js, manifest.webmanifest and db.js were added. The service worker allows information to be stored in the cache so if internet connection is lost while using the application, the page will still be able to load. The webmanifest is a JSON file where some of the page information is stored and this tells the application how to display itself on a mobile phone. The db.js is the database that is used when the application is offline so that when the user enters their budget information while offline, it has a place to be saved. When the application comes back online, it is able to do an api call to that database to retrieve the new information and keep the application up to date.
-To view the deployed project, please click [here]().
+To view the deployed project, please click [here](https://mighty-waters-44728.herokuapp.com/).
 
 ## Table of Contents 
 
